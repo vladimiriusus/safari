@@ -193,10 +193,12 @@ a{
 	color: #fff;
 	display: flex;
 	flex-direction: column;
+	justify-content: space-between;
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: center;
 	min-height: 256px;
+	line-height: 130%;
 }
 .popular__link:nth-child(3),
 .popular__link:nth-child(6){
@@ -204,5 +206,65 @@ a{
 	grid-row: span 2;
 }
 .popular__link-title{
+	font-weight: 500;
+	margin-bottom: 15px;
+}
+.popular__link-title--big{
+	font-size: 24px;
+}
 
+.popular__price{
+	font-weight: 700;
+	font-size: 16px;
+	margin-top: auto;
+	
+}
+.popular__country,
+.popular__time{
+	margin-bottom: 15px;
+
+}
+.map{
+	padding-bottom: 100px;
+}
+.map__title{
+margin-bottom: 46px;
+}
+.about{
+	padding-bottom: 100px;
+}
+.about__iner {
+	display: grid;
+	grid-template-columns: 448px 640px;
+	grid-gap: 32px;
+}
+.about__content {
+}
+.about__title {
+	text-align: left;
+	margin-bottom: 25px;
+}
+.title {
+}
+.about__text {
+	margin-bottom: 34px;
+}
+.about__link {
+	font-size: 16px;
+	line-height: 19px;
+	text-decoration-line: underline;
+	color: #C4C4C4;
+}
+.about__popup {
+	background-image: url(../images/video-bg.jpg);
+	background-repeat:no-repeat;
+	background-position: top center;
+	background-size: cover;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.popup__link {
+}
+.about__link-img {
 }
