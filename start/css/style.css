@@ -418,3 +418,51 @@ font-size: 16px;
 	left: 50%;
 	transform: translate(-50%, -50%);
 }
+.footer{
+	background: #1F1E1E;
+	padding: 80px 0;
+}
+.footer__logo{
+	text-align: center;
+	margin-bottom: 70px;
+}
+.footer__box{
+	display: flex;
+	justify-content: space-between;
+	color: rgba(255, 255, 255, .8);
+	font-size: 14px;
+	line-height: 130%;
+	max-width: 830px;
+	margin: 0 auto;nfo 
+	width: 225px;
+}
+.footer__info{
+	width: 225px;
+}
+.footer__box-title {
+	margin-bottom: 7px;
+	font-weight: 500;
+	color: #fff;	
+}
+.footer__copy {
+	margin-bottom: 3px;
+}
+.footer__link {
+	text-decoration: underline;
+}
+.footer-address {
+	width: 165px;
+}
+.footer__address-text {
+	
+}
+.footer-contacts {
+	width: 210px;	
+}
+.footer__phone {
+	
+}
+.footer__mail {
+	
+	display: block;
+}
